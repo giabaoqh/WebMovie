@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elysia</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- OWL CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <!-- BOX ICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <div class="nav-wrapper">
+      <div class="container">
+        <div class="nav">
+          <a href="#" class="logo">
+            <i class="bx bx-movie-play bx-tada main-color"></i>Ely<span
+              class="main-color"
+              >si</span
+            >a
+          </a>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="index.html" class="active">Trang chủ</a></li>
+            <li>
+              <a href="anime.html">Anime</a>
+            </li>
+            <li><a href="phim-truyen-hinh.html">Phim Truyền Hình</a></li>
+            <li><a href="phim-chieu-rap.html">Phim chiếu rạp</a></li>
+            <li><a href="thieu-nhi.html">Thiếu nhi</a></li>
+            <li>
+              <input type="text" placeholder="Tìm kiếm" class="search" />
+            </li>
+            <li>
+              <a href="#" class="btn btn-hover">
+                <span>Đăng nhập</span>
+              </a>
+            </li>
+          </ul>
+          <!-- MOBILE MENU TOGGLE -->
+          <div class="hamburger-menu" id="hamburger-menu">
+            <div class="hamburger"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- HERO SECTION -->
+    <div class="hero-section">
+      <!-- HERO SLIDE -->
+      <div class="hero-slide">
+        <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+          <!-- SLIDE ITEM -->
+          <div class="hero-slide-item">
+            <img src="./images/anime/konosuba-banner.png" alt="" />
+            <div class="overlay"></div>
+            <div class="hero-slide-item-content">
+              <div class="item-content-wraper">
+                <div class="item-content-title top-down">KonoSuba</div>
+                <div class="movie-infos top-down delay-2">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+                <div class="item-content-description top-down delay-4">
+                  Satou Kazuma là một cậu học sinh cao trung mê game, nghiện
+                  truyện, ghiền anime và là một hikikomori chính hiệu. Nhưng
+                  cuộc đời vô dụng của cậu đã kết thúc nhanh gọn. Sau một tai
+                  nạn "thương tâm", Kazuma đã lìa đời. Và được chuyển sinh với
+                  một con mắm (nữ thần) vô dụng.
+                </div>
+                <div class="item-action top-down delay-6">
+                  <a href="#" class="btn btn-hover">
+                    <i class="bx bxs-right-arrow"></i>
+                    <span>Xem Ngay</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END SLIDE ITEM -->
+          <!-- SLIDE ITEM -->
+          <div class="hero-slide-item">
+            <img src="./images/anime/yourname-banner.jpg" alt="" />
+            <div class="overlay"></div>
+            <div class="hero-slide-item-content">
+              <div class="item-content-wraper">
+                <div class="item-content-title top-down">Your Name</div>
+                <div class="movie-infos top-down delay-2">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+                <div class="item-content-description top-down delay-4">
+                  Mitsuha, một cô gái sống ở một ngôi làng nhỏ nằm sâu trong núi
+                  và Taki, một chàng trai sống ở thành phố lớn Tokyo. Một ngày
+                  nọ, họ bất ngờ hoán đổi cơ thể và cuộc sống của họ bắt đầu
+                  thay đổi. Bằng cách giao tiếp qua nhật ký và tin nhắn, Mitsuha
+                  và Taki tìm hiểu về cuộc sống của nhau và dần dần phát hiện ra
+                  một bí mật kỳ lạ...
+                </div>
+                <div class="item-action top-down delay-6">
+                  <a href="#" class="btn btn-hover">
+                    <i class="bx bxs-right-arrow"></i>
+                    <span>Xem Ngay</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END SLIDE ITEM -->
+          <!-- SLIDE ITEM -->
+          <div class="hero-slide-item">
+            <img src="./images/doraemon-banner.jpg" alt="" />
+            <div class="overlay"></div>
+            <div class="hero-slide-item-content">
+              <div class="item-content-wraper">
+                <div class="item-content-title top-down">Doraemon Movie 43</div>
+                <div class="movie-infos top-down delay-2">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+                <div class="item-content-description top-down delay-4">
+                  KỶ NIỆM 90 NĂM FUJIKO F FUJIO Chuẩn bị cho buổi hòa nhạc ở
+                  trường, Nobita đang tập thổi sáo. Thích thú trước nốt "No" lạc
+                  quẻ của Nobita, Micca - cô bé bí ẩn đã mời Doraemon, Nobita
+                  cùng nhóm bạn đến "Farre". Với bảo bối thần kì "chứng chỉ
+                  chuyên viên âm nhạc". Tuy nhiên, một vật thể sống đáng sợ sẽ
+                  xóa số âm nhạc khỏi thế giới đang đến gần! Liệu những người
+                  bạn nhỏ có thể cứu được "tương lai âm nhạc" và cả địa cầu này?
+                </div>
+                <div class="item-action top-down delay-6">
+                  <a href="#" class="btn btn-hover">
+                    <i class="bx bxs-right-arrow"></i>
+                    <span>Xem Ngay</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END SLIDE ITEM -->
+        </div>
+      </div>
+      <!-- END HERO SLIDE -->
+      <!-- TOP MOVIES SLIDE -->
+      <div class="top-movies-slide">
+        <div class="owl-carousel" id="top-movies-slide">
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="./images/series/spyxfamily.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Spy x Family</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="./images/series/ông-bà-hồi-xuân.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Ông bà hồi xuân</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="./images/cartoons/demon-slayer.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Infinity Train</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="./images/series/mashle.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Mashle S2</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="./images/series/arya bàn bên.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Arya bàn bên thỉnh thoảng lại trêu ghẹo tôi bằng tiếng nga
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="./images/movies/bat-man.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">The Dark Knight</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+        </div>
+      </div>
+      <!-- END TOP MOVIES SLIDE -->
+    </div>
+    <!-- END HERO SECTION -->
+
+    <!-- LATEST MOVIES SECTION -->
+    <div class="section">
+      <div class="container">
+        <div class="section-header">latest movies</div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/movies/mai.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Mai</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/movies/latmat6.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Lật Mặt 6</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/movies/resident-evil.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Resident Evil</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/movies/cauvang.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Cậu Vàng</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/movies/culao.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Cù Lao Xác Sống</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/movies/keanhon.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Kẻ Ăn Hồn</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/movies/call.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Call</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/movies/quycau.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Quỷ Cẩu</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+        </div>
+      </div>
+    </div>
+    <!-- END LATEST MOVIES SECTION -->
+
+    <!-- LATEST SERIES SECTION -->
+    <div class="section">
+      <div class="container">
+        <div class="section-header">latest series</div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/series/kaisen.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Jujutsu Kaisen</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/series/stranger-thing.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Stranger Things</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/series/star-trek.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Star Trek</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/series/penthouses.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Penthouses</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/series/mandalorian.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Mandalorian</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/series/the-falcon.webp" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                The Falcon And The Winter Soldier
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/series/wanda.png" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Wanda Vision</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+        </div>
+      </div>
+    </div>
+    <!-- END LATEST SERIES SECTION -->
+
+    <!-- LATEST CARTOONS SECTION -->
+    <div class="section">
+      <div class="container">
+        <div class="section-header">latest cartoons</div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/cartoons/demon-slayer.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Demon Slayer</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/cartoons/croods.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Croods</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/cartoons/dragon.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Dragonball</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/cartoons/over-the-moon.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Over The Moon</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/cartoons/weathering.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Weathering With You</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/cartoons/your-name.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Your Name</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/cartoons/coco.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Coco</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+        </div>
+      </div>
+    </div>
+    <!-- END LATEST CARTOONS SECTION -->
+
+    <!-- SPECIAL MOVIE SECTION -->
+    <div class="section">
+      <div class="hero-slide-item">
+        <img src="./images/mushokutensen-banner.jpeg" alt="" />
+        <div class="overlay"></div>
+        <div class="hero-slide-item-content">
+          <div class="item-content-wraper">
+            <div class="item-content-title">Mushoku Tensen</div>
+            <div class="movie-infos">
+              <div class="movie-info">
+                <i class="bx bxs-star"></i>
+                <span>9.5</span>
+              </div>
+              <div class="movie-info">
+                <i class="bx bxs-time"></i>
+                <span>120 mins</span>
+              </div>
+              <div class="movie-info">
+                <span>HD</span>
+              </div>
+              <div class="movie-info">
+                <span>16+</span>
+              </div>
+            </div>
+            <div class="item-content-description">
+              Câu chuyện kể về một gã otaku thất nghiệp chấm dứt cuộc đời ở tuổi
+              34 do bị xe tải đâm trúng. Điều đáng ngạc nhiên là anh ta phát
+              hiện mình đã đầu thai trong hình hài một đứa bé sơ sinh, sống tại
+              một thế giới kì lạ đầy phép thuật và kiếm pháp.
+            </div>
+            <div class="item-action">
+              <a href="#" class="btn btn-hover">
+                <i class="bx bxs-right-arrow"></i>
+                <span>Xem Ngay</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END SPECIAL MOVIE SECTION -->
+
+    <!-- PRICING SECTION -->
+    <div class="section">
+      <div class="container">
+        <div class="pricing">
+          <div class="pricing-header">
+            Ely<span class="main-color">si</span>a pricing
+          </div>
+          <div class="pricing-list">
+            <div class="row">
+              <div class="col-4 col-md-12 col-sm-12">
+                <div class="pricing-box">
+                  <div class="pricing-box-header">
+                    <div class="pricing-name">Cơ Bản</div>
+                    <div class="pricing-price">
+                      180.000VNĐ<span>/tháng</span>
+                    </div>
+                  </div>
+                  <div class="pricing-box-content">
+                    <p>Độ phân giải 720p(HD)</p>
+                    <p>Chất lượng hình và âm: Tốt</p>
+                    <p><br /></p>
+                    <p><br /></p>
+                  </div>
+                  <div class="pricing-box-action">
+                    <a href="#" class="btn btn-hover">
+                      <span>Đăng Ký Ngay</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 col-md-12 col-sm-12">
+                <div class="pricing-box hightlight">
+                  <div class="pricing-box-header">
+                    <div class="pricing-name">Tiêu chuẩn</div>
+                    <div class="pricing-price">
+                      220.000VNĐ<span>/tháng</span>
+                    </div>
+                  </div>
+                  <div class="pricing-box-content">
+                    <p>Độ phân giải 1080p(Full HD)</p>
+                    <p>Chất lượng hình và âm: Tuyệt vời</p>
+                    <p><br /></p>
+                    <p><br /></p>
+                  </div>
+                  <div class="pricing-box-action">
+                    <a href="#" class="btn btn-hover">
+                      <span>Đăng Ký Ngay</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 col-md-12 col-sm-12">
+                <div class="pricing-box">
+                  <div class="pricing-box-header">
+                    <div class="pricing-name">Cao cấp</div>
+                    <div class="pricing-price">
+                      260.000VNĐ<span>/tháng</span>
+                    </div>
+                  </div>
+                  <div class="pricing-box-content">
+                    <p>Độ phân giải 4K (Ultra HD) + HDR</p>
+                    <p>Chất lượng hình và âm: Tốt nhất</p>
+                    <p>Âm thanh không gian (âm thanh chân thực)</p>
+                    <p><br /></p>
+                  </div>
+                  <div class="pricing-box-action">
+                    <a href="#" class="btn btn-hover">
+                      <span>Đăng Ký Ngay</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END PRICING SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-md-6 col-sm-12">
+            <div class="content">
+              <a href="#" class="logo">
+                <i class="bx bx-movie-play bx-tada main-color"></i>ELy<span
+                  class="main-color"
+                  >si</span
+                >a
+              </a>
+              <p>
+                Never gonna give you up<br />
+                Never gonna let you down<br />
+                Never gonna run around and desert you<br />
+                Never gonna make you cry<br />
+                Never gonna say goodbye<br />
+                Never gonna tell a lie and hurt you
+              </p>
+              <div class="social-list">
+                <a href="#" class="social-item">
+                  <i class="bx bxl-facebook"></i>
+                </a>
+                <a href="#" class="social-item">
+                  <i class="bx bxl-twitter"></i>
+                </a>
+                <a href="#" class="social-item">
+                  <i class="bx bxl-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 col-md-6 col-sm-12">
+            <div class="row">
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Elysia</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">My profile</a></li>
+                    <li><a href="#">Pricing plans</a></li>
+                    <li><a href="#">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Browse</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">My profile</a></li>
+                    <li><a href="#">Pricing plans</a></li>
+                    <li><a href="#">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Help</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">My profile</a></li>
+                    <li><a href="#">Pricing plans</a></li>
+                    <li><a href="#">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Download app</b></p>
+                  <ul class="footer-menu">
+                    <li>
+                      <a href="#">
+                        <img src="./images/google-play.png" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="./images/app-store.png" alt="" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- COPYRIGHT SECTION -->
+    <div class="copyright">
+      Copyright 2024
+      <a
+        href="https://www.youtube.com/channel/UCnNgtK4tGlWcceXVzoyTg8Q"
+        target="_blank"
+      >
+        Netflix</a
+      >
+    </div>
+    <!-- END COPYRIGHT SECTION -->
+
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- OWL CAROUSEL -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- APP SCRIPT -->
+    <script src="app.js"></script>
+  </body>
+</html>

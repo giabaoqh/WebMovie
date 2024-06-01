@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elysia</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- OWL CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <!-- BOX ICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <div class="nav-wrapper">
+      <div class="container">
+        <div class="nav">
+          <a href="#" class="logo">
+            <i class="bx bx-movie-play bx-tada main-color"></i>Ely<span
+              class="main-color"
+              >si</span
+            >a
+          </a>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li>
+              <a href="anime.html" class="active">Anime</a>
+            </li>
+            <li><a href="phim-truyen-hinh.html">Phim truyền hình</a></li>
+            <li><a href="phim-chieu-rap.html">Phim chiếu rạp</a></li>
+            <li><a href="thieu-nhi.html">Thiếu nhi</a></li>
+            <li>
+              <input type="text" placeholder="Tìm kiếm" class="search" />
+            </li>
+            <li>
+              <a href="#" class="btn btn-hover">
+                <span>Đăng nhập</span>
+              </a>
+            </li>
+          </ul>
+          <!-- MOBILE MENU TOGGLE -->
+          <div class="hamburger-menu" id="hamburger-menu">
+            <div class="hamburger"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- HERO SECTION -->
+    <div class="hero-section">
+      <!-- HERO SLIDE -->
+      <div class="hero-slide">
+        <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+          <!-- SLIDE ITEM -->
+          <div class="hero-slide-item">
+            <img src="./images/anime/naruto.jpg" alt="" />
+            <div class="overlay"></div>
+            <div class="hero-slide-item-content">
+              <div class="item-content-wraper">
+                <div class="item-content-title top-down">Naruto Shippuden</div>
+                <div class="movie-infos top-down delay-2">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+                <div class="item-content-description top-down delay-4">
+                  Tiếp nối phần I sau khi cậu bé cùng sư phụ Jiraiya của mình đi
+                  tập luyện xa trở về làng Lá. Sau khi huấn luyện 2 năm rưỡi với
+                  Jiraiya, Naruto trở về làng Lá, đoàn tụ với những người bạn
+                  cậu đã chia tay, và lập lại Nhóm 7, giờ được gọi là Nhóm
+                  Kakashi, với Sai thế chỗ Sasuke. Tất cả những người bạn của
+                  Naruto đều đã trưởng thành và thăng cấp, có người hơn người
+                  khác. Không giống như phần đầu khi chúng chỉ đóng vai trò phụ,
+                  tổ chức Akatsuki chiếm lấy vai trò đối nghịch chính trong tham
+                  vọng thống trị thế giới.
+                </div>
+                <div class="item-action top-down delay-6">
+                  <a href="#" class="btn btn-hover">
+                    <i class="bx bxs-right-arrow"></i>
+                    <span>Xem Ngay</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END SLIDE ITEM -->
+          <!-- SLIDE ITEM -->
+          <div class="hero-slide-item">
+            <img src="./images/anime/Kimestsu-no-yaiba.jpg" alt="" />
+            <div class="overlay"></div>
+            <div class="hero-slide-item-content">
+              <div class="item-content-wraper">
+                <div class="item-content-title top-down">
+                  Thanh Gươm Diệt Quỷ
+                </div>
+                <div class="movie-infos top-down delay-2">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+                <div class="item-content-description top-down delay-4">
+                  Tanjirou kiếm sống bằng nghề bán than củi để nuôi gia đình.
+                  Ngày nọ, một con quỷ sát hại cả gia đình cậu, chỉ còn duy nhất
+                  người em gái Nezuko nhưng cô lại bị biến thành quỷ. Mang trong
+                  mình quyết tâm chữa trị cho em gái, Tanjirou cùng Nezuko bắt
+                  đầu cuộc hành trình tìm kiếm tung tích con quỷ đã ra tay với
+                  gia đình mình nhằm phá giải lời nguyền.
+                </div>
+                <div class="item-action top-down delay-6">
+                  <a href="#" class="btn btn-hover">
+                    <i class="bx bxs-right-arrow"></i>
+                    <span>Xem Ngay</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END SLIDE ITEM -->
+          <!-- SLIDE ITEM -->
+          <div class="hero-slide-item">
+            <img src="./images/anime/Shirogane-and-Shinomiya-1.jpg" alt="" />
+            <div class="overlay"></div>
+            <div class="hero-slide-item-content">
+              <div class="item-content-wraper">
+                <div class="item-content-title top-down">
+                  Cuộc Chiến Tỏ Tình
+                </div>
+                <div class="movie-infos top-down delay-2">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+                <div class="item-content-description top-down delay-4">
+                  Kaguya Shinomiya và Miyuki Shirogane cùng là thành viên của
+                  hội học sinh học viện Shuchi'in, được xem như là những thiên
+                  tài giữa các thiên tài. Thời gian bên nhau dần phát triển tình
+                  cảm họ dành cho nhau, nhưng lòng kiêu hãnh không cho phép họ
+                  là người thú nhận và ngỏ lời trước. Tình trường là chiến
+                  trường và trận chiến để khiến đối phương phải tỏ tình trước
+                  bắt đầu!
+                </div>
+                <div class="item-action top-down delay-6">
+                  <a href="#" class="btn btn-hover">
+                    <i class="bx bxs-right-arrow"></i>
+                    <span>Xem Ngay</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END SLIDE ITEM -->
+        </div>
+      </div>
+      <!-- END HERO SLIDE -->
+      <!-- TOP MOVIES SLIDE -->
+      <div class="top-movies-slide">
+        <div class="owl-carousel" id="top-movies-slide">
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="./images/series/spyxfamily.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Spy x Family</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="./images/series/ông-bà-hồi-xuân.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Ông bà hồi xuân</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="./images/cartoons/demon-slayer.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Infinity Train</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="./images/series/mashle.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Mashle S2</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="./images/series/arya bàn bên.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                Arya bàn bên thỉnh thoảng lại trêu ghẹo tôi bằng tiếng nga
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="./images/anime/Wind-Breaker.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Wind Breaker</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+        </div>
+      </div>
+      <!-- END TOP MOVIES SLIDE -->
+    </div>
+    <!-- END HERO SECTION -->
+
+    <!-- BODY -->
+    <div class="row">
+      <div class="col-lg-2 col-md-2 col-md-3 col-sm-4 col-6">
+        <div class="movie-item">
+          <img src="./images/anime/Wind-Breaker.jpg" alt="" />
+          <div class="movie-item-content">
+            <div class="movie-item-title">Wind Breaker</div>
+            <div class="movie-infos">
+              <div class="movie-info">
+                <i class="bx bxs-star"></i>
+                <span>9.5</span>
+              </div>
+              <div class="movie-info">
+                <i class="bx bxs-time"></i>
+                <span>120 mins</span>
+              </div>
+              <div class="movie-info">
+                <span>HD</span>
+              </div>
+              <div class="movie-info">
+                <span>16+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-md-3 col-sm-4 col-6">
+        <div class="movie-item">
+          <img src="./images/anime/Wind-Breaker.jpg" alt="" />
+          <div class="movie-item-content">
+            <div class="movie-item-title">Wind Breaker</div>
+            <div class="movie-infos">
+              <div class="movie-info">
+                <i class="bx bxs-star"></i>
+                <span>9.5</span>
+              </div>
+              <div class="movie-info">
+                <i class="bx bxs-time"></i>
+                <span>120 mins</span>
+              </div>
+              <div class="movie-info">
+                <span>HD</span>
+              </div>
+              <div class="movie-info">
+                <span>16+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-md-3 col-sm-4 col-6">
+        <div class="movie-item">
+          <img src="./images/anime/Wind-Breaker.jpg" alt="" />
+          <div class="movie-item-content">
+            <div class="movie-item-title">Wind Breaker</div>
+            <div class="movie-infos">
+              <div class="movie-info">
+                <i class="bx bxs-star"></i>
+                <span>9.5</span>
+              </div>
+              <div class="movie-info">
+                <i class="bx bxs-time"></i>
+                <span>120 mins</span>
+              </div>
+              <div class="movie-info">
+                <span>HD</span>
+              </div>
+              <div class="movie-info">
+                <span>16+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-md-3 col-sm-4 col-6">
+        <div class="movie-item">
+          <img src="./images/anime/Wind-Breaker.jpg" alt="" />
+          <div class="movie-item-content">
+            <div class="movie-item-title">Wind Breaker</div>
+            <div class="movie-infos">
+              <div class="movie-info">
+                <i class="bx bxs-star"></i>
+                <span>9.5</span>
+              </div>
+              <div class="movie-info">
+                <i class="bx bxs-time"></i>
+                <span>120 mins</span>
+              </div>
+              <div class="movie-info">
+                <span>HD</span>
+              </div>
+              <div class="movie-info">
+                <span>16+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-md-3 col-sm-4 col-6">
+        <div class="movie-item">
+          <img src="./images/anime/Wind-Breaker.jpg" alt="" />
+          <div class="movie-item-content">
+            <div class="movie-item-title">Wind Breaker</div>
+            <div class="movie-infos">
+              <div class="movie-info">
+                <i class="bx bxs-star"></i>
+                <span>9.5</span>
+              </div>
+              <div class="movie-info">
+                <i class="bx bxs-time"></i>
+                <span>120 mins</span>
+              </div>
+              <div class="movie-info">
+                <span>HD</span>
+              </div>
+              <div class="movie-info">
+                <span>16+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-md-3 col-sm-4 col-6">
+        <div class="movie-item">
+          <img src="./images/anime/Wind-Breaker.jpg" alt="" />
+          <div class="movie-item-content">
+            <div class="movie-item-title">Wind Breaker</div>
+            <div class="movie-infos">
+              <div class="movie-info">
+                <i class="bx bxs-star"></i>
+                <span>9.5</span>
+              </div>
+              <div class="movie-info">
+                <i class="bx bxs-time"></i>
+                <span>120 mins</span>
+              </div>
+              <div class="movie-info">
+                <span>HD</span>
+              </div>
+              <div class="movie-info">
+                <span>16+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--END BODY -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-md-6 col-sm-12">
+            <div class="content">
+              <a href="#" class="logo">
+                <i class="bx bx-movie-play bx-tada main-color"></i>ELy<span
+                  class="main-color"
+                  >si</span
+                >a
+              </a>
+              <p>
+                Never gonna give you up<br />
+                Never gonna let you down<br />
+                Never gonna run around and desert you<br />
+                Never gonna make you cry<br />
+                Never gonna say goodbye<br />
+                Never gonna tell a lie and hurt you
+              </p>
+              <div class="social-list">
+                <a href="#" class="social-item">
+                  <i class="bx bxl-facebook"></i>
+                </a>
+                <a href="#" class="social-item">
+                  <i class="bx bxl-twitter"></i>
+                </a>
+                <a href="#" class="social-item">
+                  <i class="bx bxl-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 col-md-6 col-sm-12">
+            <div class="row">
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Elysia</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">My profile</a></li>
+                    <li><a href="#">Pricing plans</a></li>
+                    <li><a href="#">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Browse</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">My profile</a></li>
+                    <li><a href="#">Pricing plans</a></li>
+                    <li><a href="#">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Help</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">My profile</a></li>
+                    <li><a href="#">Pricing plans</a></li>
+                    <li><a href="#">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Download app</b></p>
+                  <ul class="footer-menu">
+                    <li>
+                      <a href="#">
+                        <img src="./images/google-play.png" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="./images/app-store.png" alt="" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- COPYRIGHT SECTION -->
+    <div class="copyright">
+      Copyright 2024
+      <a
+        href="https://www.youtube.com/channel/UCnNgtK4tGlWcceXVzoyTg8Q"
+        target="_blank"
+      >
+        Netflix</a
+      >
+    </div>
+    <!-- END COPYRIGHT SECTION -->
+
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- OWL CAROUSEL -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- APP SCRIPT -->
+    <script src="app.js"></script>
+  </body>
+</html>
